@@ -1,0 +1,18 @@
+.about-page {
+    width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+ul.about-list {
+    padding-left: 20px;
+}
+
+ul.about-list li {
+    margin-bottom: 5px;
+    font-size: 14px;
+    word-break: break-all;
+}
