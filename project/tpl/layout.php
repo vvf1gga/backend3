@@ -8,7 +8,7 @@
     <title><?= htmlspecialchars($pageTitle ?? 'Без назви') ?></title>
 </head>
 
-<body>
+<body style="background-color: <?= htmlspecialchars($_SESSION['bg_color'] ?? '#f9f9f9') ?>">
     <header class="header">
         <nav>
             <ul>

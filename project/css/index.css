@@ -11,6 +11,25 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
+.index-page label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.index-page input {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    align-self: center;
+    margin-top: 15px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.index-page button {
+    font-size: 13px;
+}
+
 .index-page h1 {
     margin-bottom: 5px;
 }
